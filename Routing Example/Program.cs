@@ -23,7 +23,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
 
-     name:"Haberler",
+     name:"Haberler", 
      pattern:"Haberler",
      defaults: new { controller = "News", action = "Haberler"}
     );
